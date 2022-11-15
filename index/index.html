@@ -1,0 +1,189 @@
+<html lang="en">
+
+		<head>
+				<title>Clone web</title>
+				<meta charset="UTF-8">
+		</head>
+		<style>
+		
+.namgiua {
+	width: 1000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	background-color: #444444;
+}
+
+.menu ul {
+	list-style: none;
+	padding: 0 15px;
+}
+
+.menu ul li {
+	position: relative;
+}
+
+.menu ul li a {
+	color: #EDEDED;
+	text-decoration: none;
+}
+
+.menu > ul > li {
+	display: inline-block;
+}
+
+.menu > ul > li > a {
+	display: block;
+	line-height: 40px;
+	padding: 0 15px;
+}
+
+.menu ul ul {
+	width: 150px;
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul ul li {
+	line-height: 40px;
+	background: #777777;
+	padding: 0 15px;
+	left: -15px;
+}
+
+.menu ul ul li:hover {
+	background: #121212;
+}
+
+.menu ul li:hover > ul {
+	visibility: visible;
+	top: 100%;
+}
+
+.menu ul ul ul {
+	top: 0 !important;
+	left: 100%;
+}
+
+.slideshow{
+	width: 1000px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.duongvien {
+	width: 4000px;
+	-webkit-animation: slide 20s ease infinite;
+}
+
+.slide {
+	float: left;
+	width: 1000px;
+	height: 300px;
+	display: flex;
+}
+
+@-webkit-keyframes slide {
+	20% {margin-left: 0px;}
+	40% {margin-left: -1000px;}
+	60% {margin-left: -2000px;}
+	80% {margin-left: -3000px;}
+}
+
+		</style>
+		<body>
+			<table class="namgiua" border="1">
+			<tr align="center">
+			<td colspan="3" bgcolor="white" height="80"><img src="cdnbt1.jpg"></td>
+			</tr>
+			<tr align="center" bgcolor="#444444" height="30">
+			<td colspan="3">
+				<div class="menu">
+					<ul>
+						<li><a href="#">TRANG CHỦ</a></li>
+						<li><a href="#">GIỚI THIỆU</a></li>
+						<li><a href="#">CÁC ĐƠN VỊ</a>
+						<ul>
+							<li><a href="#">Phòng</a></li>
+							<li><a href="#">Trung tâm</a></li>
+							<li><a href="#">Khoa</a>
+							<ul>
+								<li><a href="#">Sư phạm</a></li>
+								<li><a href="#">Kinh tế - Kỹ thuật</a>
+								<ul>
+								<li><a href="#"><i class="fa fa-internet-explorer"></i>Tin Học</a></li>
+								<li><a href="#"><i class="fa fa-automobile"></i>Điện Điện Tử</a></li>
+								<li><a href="#"><i class="fa fa-money"></i>Kế Toán</a></li>
+								</ul>
+								</li>
+								<li><a href="#">Du lịch - Văn hóa</a></li>
+							</ul>
+							</li>
+						</ul>
+						</li>
+						<li><a href="#">TUYỂN SINH</a>
+					<ul>
+						<li><a href="#">Thông tin</a></li>
+						<li><a href="#">Đăng ký</a></li>
+						<li><a href="#">Ngành</a></li>
+					</ul></li>
+						<li><a href="#">THƯ VIỆN SỐ</a>
+					
+				</li>
+				<li><a href="#">GÓC SINH VIÊN</a></li>
+				<li><a href="#">GÓC LIÊN HỆ</a></li>
+			</ul>
+		</div>
+			</td>
+			</tr>
+			<tr align="center">
+			<td colspan="3" bgcolor="lightgreen" height="80"><div class="slideshow">
+			<div class="duongvien">
+				<div class="slide"><img src="dnbt1.jpg" ></div>
+				<div class="slide"><img src="dnbt2.jpg" ></div>
+				<div class="slide"><img src="dnbt3.jpg" ></div>
+				<div class="slide"><img src="dnbt4.png" ></div>
+			</div>
+		</div>
+		</td>
+			</tr>
+			<tr align="center">
+			<td colspan="3" bgcolor="lightblue" height="30">Thông tin chung</td>
+			</tr>
+			<tr align="left" height="60">
+			<td rowspan="3" width="400" valign="top" style="padding: 5px;"><a href="http://www.dnbt.edu.vn/XemTinTuc-N.aspx?IDPar=6&IDChild=56160">LỄ TRAO BẰNG TỐT NGHIỆP TRUNG CẤP, CAO ĐẲNG NĂM 2022</a><br><img src="letotnghiep.jpg" width="150" height="110" style="float: left; margin-right: 10px;padding: 5px;">Chiều ngày 30/8/2022, Trường Cao đẳng nghề Bình Thuận long trọng tổ chức Lễ trao bằng tốt nghiệp trung cấp, cao đẳng năm 2022 cho học sinh, sinh viên các lớp trung cấp, cao đẳng...</td>
+			<td >Tin 1</td>
+			<td rowspan="3" width="248" align="center"">
+			<img src="a1.jpg">
+			<img src="a2.jpg">
+			<img src="a3.jpg">
+			<img src="a4.jpg">
+			<img src="a5.jpg">
+			<img src="a6.jpg">
+			<img src="a7.jpg">
+			<img src="a8.jpg">
+			</td>
+			<tr align="center" height="60">
+			<td>Tin 2</td>
+			</tr>
+			<tr align="center" height="60">
+			<td>Tin 2</td>
+			</tr>
+			<tr align="center">
+			<td colspan="3" bgcolor="DEDEDE" height="80"><marquee behavior="scroll" direction="right" scrollamount="15" onmouseover="this.stop()" onmouseout="this.start()">
+			<a href="https://www.vietinbank.vn/web/home/vn/index.html"><img src="2.png"></a>
+			<a href="https://www.baovietnhantho.com.vn/#gref"><img src="3.png"></a>
+			<a href="https://dichvucong.gov.vn/p/home/dvc-trang-chu.html"><img src="4.png"></a>
+			<a href="https://bnctu.binhthuan.dcs.vn/Trang-ch%E1%BB%A7/post/208794/chung-tay-ung-ho-quy-phong-chong-dich-covid19#!"><img src="5.png" height="80"></a>
+			<a href="https://www.fvhospital.com/ban-can-biet/huong-dan-su-dung-ung-dung-so-suc-khoe-dien-tu-de-kiem-tra-chung-nhan-tiem-vac-xin-ngua-covid-19/"><img src="1.png" height="80"></a>
+			</marquee></td>
+			</tr>
+			<tr align="center">
+			<td colspan="3" bgcolor="ĐEEDDE" height="80">Footer</td>
+			</tr>
+			</table>
+		</body>
+</html>
